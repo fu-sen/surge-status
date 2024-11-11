@@ -1,0 +1,27 @@
+#!/bin/sh
+TEMPLETE_FILE="README.templete.md"
+CHECK_LIST_FILE="check.csv"
+README_FILE="README.md"
+
+STATUS=$(cat <<EOT
+|Status|Server Domain|IP Address|Locaion|
+|:-----|------------:|:---------|:------|
+EOT
+)
+
+while read LINE
+do
+    DOMAIN=$(echo ${LINE} | cut -d , -f 1)
+    IP=$(echo ${LINE} | cut -d , -f 2)
+    LOCATE=$(echo ${LINE} | cut -d , -f 3)
+
+    RESPONSE=$(curl -w '%{http_code}' -s -o /dev/null ${DOMAIN})
+
+    if [ ${RESPONSE} -eq 200 ]; then
+      STATUS=${STATUS}"\n|✅ success|${DOMAIN}|${IP}|${LOCATE}|"
+    else
+      STATUS=${STATUS}"\n|❌ failed |${DOMAIN}|${IP}|${LOCATE}|"
+    fi
+done < ${CHECK_LIST_FILE}
+
+eval "echo \"$(cat "${TEMPLETE_FILE}")\"" > ${README_FILE}
