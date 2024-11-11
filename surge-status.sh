@@ -2,6 +2,7 @@
 TEMPLETE_FILE="README.templete.md"
 CHECK_LIST_FILE="check.csv"
 README_FILE="README.md"
+TIMEOUT_SECONDS=5
 
 STATUS=$(cat <<EOT
 |Status|Domain|IP Address|Locaion|
@@ -15,7 +16,7 @@ do
     IP=$(echo ${LINE} | cut -d , -f 2)
     LOCATE=$(echo ${LINE} | cut -d , -f 3)
 
-    RESPONSE=$(curl -w '%{http_code}' -s -o /dev/null ${DOMAIN})
+    RESPONSE=$(curl -m ${TIMEOUT_SECONDS} -w '%{http_code}' -s -o /dev/null ${DOMAIN})
 
     if [ ${RESPONSE} -eq 200 ]; then
       STATUS=${STATUS}"\n|✅ success|${DOMAIN}|${IP}|${LOCATE}|"
