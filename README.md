@@ -2,10 +2,10 @@
 
 This repository is unofficial for Surge and provided by Surge user.
 
-Last Update: Mon Nov 11 08:57:34 UTC 2024
+Last Update: Mon Nov 11 09:00:19 UTC 2024
 
-|Status|Server Domain|IP Address|Locaion|
-|:-----|------------:|:---------|:------|
+|Status|Domain|IP Address|Locaion|
+|:-----|-----:|:---------|:------|
 |✅ success|sfo.surge.sh|138.197.235.123|US San Francisco|
 |✅ success|lhr.surge.sh|46.101.67.123|GB London|
 |❌ failed |yyz.surge.sh|159.203.50.177|CA Toronto|
@@ -20,6 +20,6 @@ Last Update: Mon Nov 11 08:57:34 UTC 2024
 - Surge <https://surge.sh/>
 - GitHub <https://github.com/sintaxi/surge>
      - Issues <https://github.com/sintaxi/surge/issues>
-     - Pull requests<https://github.com/sintaxi/surge/pulls>
+     - Pull requests <https://github.com/sintaxi/surge/pulls>
      - Discussions <https://github.com/sintaxi/surge/discussions>
 - npm <https://www.npmjs.com/package/surge>
