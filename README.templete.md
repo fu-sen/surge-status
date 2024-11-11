@@ -6,7 +6,7 @@ Last Update: `date`
 
 ${STATUS}
 
-- Surge <https://surge.sh/
+- Surge <https://surge.sh/>
 - GitHub <https://github.com/sintaxi/surge>
      - Issues <https://github.com/sintaxi/surge/issues>
      - Pull requests<https://github.com/sintaxi/surge/pulls>
