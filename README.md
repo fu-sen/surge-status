@@ -2,7 +2,7 @@
 
 This repository is unofficial for Surge and provided by Surge user.
 
-Last Update: Mon Nov 11 08:44:48 UTC 2024
+Last Update: Mon Nov 11 08:57:34 UTC 2024
 
 |Status|Server Domain|IP Address|Locaion|
 |:-----|------------:|:---------|:------|
@@ -17,7 +17,7 @@ Last Update: Mon Nov 11 08:44:48 UTC 2024
 |✅ success|syd.surge.sh|45.76.126.95|AU Sydney|
 |✅ success|nrt.surge.sh|172.104.96.133|JP Tokyo|
 
-- Surge <https://surge.sh/
+- Surge <https://surge.sh/>
 - GitHub <https://github.com/sintaxi/surge>
      - Issues <https://github.com/sintaxi/surge/issues>
      - Pull requests<https://github.com/sintaxi/surge/pulls>
