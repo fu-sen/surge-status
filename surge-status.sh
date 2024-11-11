@@ -4,8 +4,8 @@ CHECK_LIST_FILE="check.csv"
 README_FILE="README.md"
 
 STATUS=$(cat <<EOT
-|Status|Server Domain|IP Address|Locaion|
-|:-----|------------:|:---------|:------|
+|Status|Domain|IP Address|Locaion|
+|:-----|-----:|:---------|:------|
 EOT
 )
 
