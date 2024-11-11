@@ -22,6 +22,7 @@ do
     else
       STATUS=${STATUS}"\n|❌ failed |${DOMAIN}|${IP}|${LOCATE}|"
     fi
+    echo "${RESPONSE} - ${DOMAIN} ${IP} ${LOCATE}"
 done < ${CHECK_LIST_FILE}
 
 eval "echo \"$(cat "${TEMPLETE_FILE}")\"" > ${README_FILE}
