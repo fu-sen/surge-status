@@ -16,7 +16,7 @@ do
     IP=$(echo ${LINE} | cut -d , -f 2)
     LOCATE=$(echo ${LINE} | cut -d , -f 3)
 
-    RESPONSE=$(curl -m ${TIMEOUT_SECONDS} -w '%{http_code}' -s -o /dev/null ${DOMAIN})
+    RESPONSE=$(curl -m ${TIMEOUT_SECONDS} -w '%{http_code}' -s -o /dev/null https://${DOMAIN})/
 
     if [ ${RESPONSE} -eq 200 ]; then
       STATUS=${STATUS}"\n|✅ success|${DOMAIN}|${IP}|${LOCATE}|"
