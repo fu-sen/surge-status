@@ -2,7 +2,7 @@
 
 This repository is unofficial for Surge and provided by Surge user.
 
-Last Update: Tue Nov 12 22:41:22 UTC 2024
+Last Update: Tue Nov 12 23:39:21 UTC 2024
 
 |Status|Domain|IP Address|Locaion|
 |:-----|-----:|:---------|:------|
