@@ -2,13 +2,13 @@
 
 This repository is unofficial for Surge and provided by Surge user.
 
-Last Update: Thu Nov 14 05:41:59 UTC 2024
+Last Update: Thu Nov 14 06:47:09 UTC 2024
 
 |Status|Domain|IP Address|Locaion|
 |:-----|-----:|:---------|:------|
 |✅ success|sfo.surge.sh|138.197.235.123|US San Francisco|
 |❌ failed |lhr.surge.sh|46.101.67.123|GB London|
-|❌ failed |yyz.surge.sh|159.203.50.177|CA Toronto|
+|✅ success|yyz.surge.sh|159.203.50.177|CA Toronto|
 |✅ success|jfk.surge.sh|159.203.159.100|US New York|
 |✅ success|ams.surge.sh|188.166.132.94|NL Amsterdam|
 |✅ success|fra.surge.sh|138.68.112.220|DE Frankfurt|
