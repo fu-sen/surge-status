@@ -2,7 +2,7 @@
 
 This repository is unofficial for Surge and provided by Surge user.
 
-Last Update: Fri Nov 15 13:01:56 UTC 2024
+Last Update: Fri Nov 15 13:42:22 UTC 2024
 
 |Status|Domain|IP Address|Locaion|
 |:-----|-----:|:---------|:------|
@@ -14,7 +14,7 @@ Last Update: Fri Nov 15 13:01:56 UTC 2024
 |✅ success|fra.surge.sh|138.68.112.220|DE Frankfurt|
 |✅ success|sgp.surge.sh|139.59.195.30|SG Singapore|
 |✅ success|blr.surge.sh|139.59.50.135|IN Bangalore|
-|❌ failed |syd.surge.sh|45.76.126.95|AU Sydney|
+|✅ success|syd.surge.sh|45.76.126.95|AU Sydney|
 |✅ success|nrt.surge.sh|172.104.96.133|JP Tokyo|
 
 - Surge <https://surge.sh/>
